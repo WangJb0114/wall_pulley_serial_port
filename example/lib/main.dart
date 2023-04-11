@@ -22,6 +22,14 @@ class _MyAppState extends State<MyApp> {
     super.initState();
   }
 
+  /**
+   * 在pubspec.yaml里添加
+   * wall_pulley_serial_port:
+      git:
+      url: https://github.com/WangJb0114/wall_pulley_serial_port.git
+      ref: main   #通过ref指定依赖某个提交的版本、分支或者tag
+   */
+  ///
   /// _serialUtils 串口工具类
   ///
   /// 需要先调用initState(deviceName,baudrate)方法初始化串口才能打开串口，否则会串口打开失败

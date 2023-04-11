@@ -1,8 +1,8 @@
 name: wall_pulley_serial_port
 description: 拉力器串口SDK
 version: 0.0.1
-homepage:
-publish_to:
+homepage: https://github.com/WangJb0114/wall_pulley_serial_port.git
+publish_to: https://github.com/WangJb0114/wall_pulley_serial_port.git
 
 environment:
   sdk: '>=2.19.2 <3.0.0'
